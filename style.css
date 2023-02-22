@@ -28,7 +28,7 @@ width: 100%;
 
 }
 .button__primary:hover{border: 2px solid #FF6767;}
-
+.button__secondary:hover{border: 2px solid #FF6767;}
 .container {
    padding: 20px 20px;
 }
@@ -50,7 +50,11 @@ width: 100%;
   font-size: 40px;
   font-weight: 600px;
 }
+.food__name{
+  margin-left: 15px;
+}
 .food__card__discription{
+
   padding: 15px;
 }
 .food__card{
@@ -64,6 +68,10 @@ width: 100%;
 .food__image{
   width: 100%;
   border-radius: 8px;
+  margin-top: 10px;
+    box-shadow: 0 5px  10px ;
+    display: inline;
+
 }
 .explore__menu__text{
   margin-top: 30px;
@@ -75,8 +83,10 @@ width: 100%;
 
 }
 
-
 @media (min-width:768px){
+  .explore__menu__lists{
+    display: flex;
+  }
   .explore__menu__lists{
     margin-top: 30px;
     display: flex;
@@ -85,7 +95,16 @@ width: 100%;
   #pizza__card{
     margin-top: -20px;
     margin-bottom: 30px;
+    background-color:  #ebf2ff;
+    text-align: left;
   }
+  #burger__card{
+      background-color:  #ebf2ff;
+  }
+  #iceCream__card{
+      background-color:  #ebf2ff;
+  }
+
   .navbar{
     justify-content: space-between;
     padding: 10px 30px;
@@ -120,4 +139,24 @@ width: 100%;
   .explore__menu__text{
     font-size: 48px;
   }
+}
+.container2{
+  background-color: #ECF2FF;
+}
+.info{
+  display: flex;
+  justify-content: flex-start;
+ justify-content: space-between;
+  margin-top: 30px;
+
+}
+.logo{
+  margin-top: 100px;
+
+}
+.table{
+  margin-top: 30px;
+}
+.social__links{
+  margin-right: 30px;
 }
