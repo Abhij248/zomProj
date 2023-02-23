@@ -166,11 +166,16 @@ width: 100%;
 }
 #icons{
   margin-top: 20px;
-  width:30px;
+  width: 25x;
   height: 30px;
   margin-right: 5px;
 }
 
 #icon__2{
-width: 50%;
+  display: block;
+  margin-top: 5px;
+
+  width: 150px;
+  height: 40px;
+
 }
