@@ -158,5 +158,19 @@ width: 100%;
   margin-top: 30px;
 }
 .social__links{
-  margin-right: 30px;
+    display:inline-block;
+    text-align: left;
+  }
+.icon__container{
+  margin-right: 100px;
+}
+#icons{
+  margin-top: 20px;
+  width:30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+#icon__2{
+width: 50%;
 }
